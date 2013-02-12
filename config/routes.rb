@@ -1,5 +1,5 @@
 PaintApp::Application.routes.draw do
- get '/' => "home#index"
+ root :to =>"home#index"
  post '/' => "home#post" 
   # The priority is based upon order of creation:
   # first created -> highest priority.
